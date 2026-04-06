@@ -1,6 +1,6 @@
 {
   "name": "@dozyio/libp2p-pcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "libp2p NAT traversal service backed by PCP",
   "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/dozyio/js-libp2p-pcp#readme",

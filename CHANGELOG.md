@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/dozyio/js-libp2p-pcp/compare/v1.0.0...v1.0.1) (2026-04-06)
+
+### Trivial Changes
+
+* add prepack ([4d33c76](https://github.com/dozyio/js-libp2p-pcp/commit/4d33c76a3187c0d7ecd661c8f9abbdc6d92c7e0c))
+
 ## 1.0.0 (2026-04-06)
 
 ### Features
