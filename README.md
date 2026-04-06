@@ -77,7 +77,7 @@ process.on('SIGINT', async () => {
 
 - PCP runs over UDP port `5351`.
 - Some routers require PCP on a LAN-side IPv6 GUA instead of link-local/WAN addresses.
-- This service adds mapped addresses as observed addresses. With `trustMappedAddresses: true`, mapped addresses are trusted immediately.
+- This service adds mapped addresses as observed addresses. With `trustMappedAddresses: true`, mapped addresses are trusted immediately and `@libp2p/autonat` is not required. With `trustMappedAddresses: false` (default), mapped addresses are unverified until confirmed by `@libp2p/autonat`.
 
 ## Testing
 
