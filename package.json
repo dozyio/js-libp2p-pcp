@@ -139,6 +139,7 @@
     "dep-check": "aegir dep-check",
     "doc-check": "aegir doc-check",
     "build": "aegir build --no-bundle",
+    "prepack": "npm run build",
     "docs": "aegir docs",
     "release": "aegir release",
     "test": "aegir test -t node",
